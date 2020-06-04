@@ -1,0 +1,21 @@
+{
+    "name": "stsengine/yii2-admin-dashboard",
+    "description": "Yii2 Admin dashboard",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "stsengine",
+            "email": "info@stsengine.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "stsengine\\adminDashboard\\": ""
+        }
+    }
+}
